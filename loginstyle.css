@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 300;
-  background: #181818;
-  color: #fff;
+  /*background: #181818;*/
+  /*color: #fff;*/
+  background-color: white;
+  color: black;
   overflow: hidden;
 }
-
+a{
+  /*color: black;*/
+}
 h1,
 h2,
 h3,
@@ -17,6 +25,21 @@ h4,
 h5,
 h6 {
   font-weight: 300;
+}
+.fa-times{
+  position: absolute;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  /*background-color: white;*/
+  right: 1%;
+  color: red;
+  border-radius: 33rem;
+  font-size: 2rem;
+  transition: 0.9s;
+  cursor: pointer;
+}
+.fa-times:hover{
+  transform: rotate(90deg);
 }
 #wrapper {
   display: flex;
@@ -57,7 +80,12 @@ h6 {
 }
 
 #signin .logo h1 {
-  font-weight: 300;
+  /*width: 300px;*/
+  /*font-weight: bolder;*/
+  /*text-transform: uppercase;*/
+  /*text-align: center;*/
+  /*justify-content: center;*/
+  /*color: var(--black);*/
     font-size: 2.5rem;
     font-weight: bolder;
 }
@@ -73,6 +101,7 @@ h6 {
   margin-bottom: 1.3rem;
   width: 100%;
   border-radius: 3rem;
+  /*background: #181818;*/
   background-color: white;
   border: 1px solid #555;
   color: #ccc;
@@ -188,6 +217,8 @@ h6 {
 }
 
 .secondary-btn:hover {
+  /*border-color: #ff7b39;
+  color: #ff7b39;*/
   box-shadow: inset 30rem 0 0 0 black;
   color: white;
 }
