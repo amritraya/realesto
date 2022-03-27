@@ -59,6 +59,7 @@ header {
 header .logo {
     font-size: 2rem;
     font-weight: bolder;
+    color: black;
 }
 
 
@@ -339,6 +340,12 @@ header .icons #menu-bars {
         grid-template-columns: repeat(2, 1fr);
         line-height: 4rem;
         padding-top: 2rem;
+    }
+    footer .footer_secondary{
+      padding-top: 1rem
+    }
+    .footer_newsletter{
+      width: 80%;
     }
 }
 
@@ -647,7 +654,7 @@ footer .footer_main {
     /*flex-direction: row;*/
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 7rem 0rem;
+    padding: 7rem 0.5rem;
 
 }
 .footer_main .footer_info p{
@@ -684,7 +691,7 @@ footer .footer_main {
 }
 
 .footer_secondary {
-    padding-top: 1rem
+    padding: 1rem 0.5rem;
 }
 
 .footer_secondary p {
